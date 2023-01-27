@@ -1,6 +1,5 @@
 # toolbox
-```bash
-```
+
 ## TL;DR
 
 ```bash
