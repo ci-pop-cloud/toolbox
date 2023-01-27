@@ -1,5 +1,5 @@
 FROM python:alpine3.17
-LABEL org.opencontainers.image.source https://github.com/pop-cloud/toolbox
+LABEL org.opencontainers.image.source https://github.com/pop-cloud/pop-box
 
 RUN apk add --update --no-cache openssh 
 RUN echo 'PasswordAuthentication yes' >> /etc/ssh/sshd_config

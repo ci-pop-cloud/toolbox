@@ -1,6 +1,6 @@
 FROM debian:stable-20230109-slim
 
-LABEL org.opencontainers.image.source https://github.com/ci-pop-cloud/toolbox
+LABEL org.opencontainers.image.source https://github.com/pop-cloud/pop-box
 
 RUN apt-get update && apt-get install -y openssh-server
 RUN mkdir /var/run/sshd

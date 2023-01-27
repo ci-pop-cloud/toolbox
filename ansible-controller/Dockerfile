@@ -2,7 +2,7 @@ FROM python:3.7-alpine
 
 ARG ANSIBLE_VERSION
 
-LABEL org.opencontainers.image.source https://github.com/pop-cloud/toolbox
+LABEL org.opencontainers.image.source https://github.com/pop-cloud/pop-box
 
 # Bash and tools
 RUN apk --no-cache --update add \
